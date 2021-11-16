@@ -2,7 +2,7 @@
 import random
 import string
 #source
-char = list(string.ascii_letters + string.digits + '!@#$%^&*()')
+char = list(string.ascii_letters + string.digits + '!@#$%^&*(),./;[:}{]<>?')
 #function
 def random_password():
     len = int(input('Enter length of password: '))
